@@ -1,0 +1,8 @@
+// Recommandations d'extensions à activer dans le projet
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "refgd.easy-compile",
+    "gruntfuggly.todo-tree"
+  ]
+}

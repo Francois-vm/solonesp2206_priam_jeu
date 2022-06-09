@@ -1,0 +1,334 @@
+/*
+ * TemplateName: standard_solo_GLOBAL
+ *
+ * @version: 1.1 - 03/2017
+ */
+/*
+ * GENERAL
+ */
+@media only screen and (max-width: 940px), (max-device-width: 940px) {
+	.none {
+		display: none !important;
+	}
+	.block, .show {
+		display: block !important;
+	}
+	.popuperror {
+		width: 280px;
+		margin: auto;
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (max-width: 480px), (max-device-width: 480px) {
+	/*
+	 * "POPUP" DE LA PAGE GOOD
+	 */
+	#erreurdiv {
+
+	}
+	.good #erreurdiv {
+		position: absolute !important;
+		height: 400% !important;
+	}
+	.logolp{
+		width: 100%;
+	}
+	.codediv{
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+/*
+ * LP & GOOD
+ */
+/* Style specifique au mobile et tablette */
+@media only screen and (max-width: 940px), (max-device-width: 940px) {
+	/* Afficher ou Cacher des elements */
+	.show-mobile {
+		display: none;
+	}
+	.show-tablette {
+		display: block;
+	}
+	.show-desktop {
+		display: none;
+	}
+	/*
+	 * SLIDERS
+	 */
+	/*
+	.prev { margin-left: 10px !important; }
+	.next { margin-left: -40px !important; }
+	#products .prev { margin-left: 10px !important; }
+	#products .next { margin-left: -40px !important; }
+	*/
+	/*
+	 * GENERAL
+	 */
+	/*
+	 * LANDING PAGE & PAGE GOOD
+	 * #pageLanding / #pageGood
+	 */
+	.global .globalHeader .header,
+	.global .globalBandeau .bandeau,
+	.global .globalMain .main,
+	.global .globalFooter .footer {
+		margin: 0 auto !important;
+	}
+	/*
+	 * HEADER
+	 */
+	.globalHeader .header {
+		width: 740px;
+	}
+	/*
+	 * BANDEAU
+	 */
+	.globalBandeau .bandeau {
+		background: url("../visuals/defaut/640x240_dark.jpg") no-repeat top center;
+		width: 640px;
+		height: 240px;
+	}
+	/*
+	 * MAIN
+	 */
+	.globalMain .main {
+		width: 740px;
+	}
+	.globalMain .main .content {
+		width: 100%;
+	}
+	.globalMain .main .main_formulaire {
+		width: 100%;
+	}
+	.globalMain .main .main_formulaire .titre_formulaire {
+		padding: 20px;
+	}
+	.globalMain .main .main_formulaire .formulaire {
+		padding: 20px 20px 50px 20px;
+	}
+	.globalMain .main .main_formulaire .formulaire .col_1 {
+		float: left;
+	}
+	.globalMain .main .main_formulaire .formulaire .col_2 {
+		float: right;
+	}
+	.globalMain .main .main_formulaire .formulaire .col_clear {
+		clear: both;
+	}
+	.form .formstyle,
+	.form .formstyle2 {
+		width: calc(330px - 2px - 6px - 6px);
+		/*largeur - (border x2 + padding-left + padding-right) 240px*/
+	}
+	.form textarea.formstyle,
+	.form textarea.formstyle2 {
+		width: calc(330px - 2px - 6px - 6px);
+		/*largeur - (border x2 + padding-left + padding-right) 240px*/
+	}
+	.form select.formstyle,
+	.form select.formstyle2 {
+		width: 330px;
+		/*largeur 240px*/
+	}
+	.form #nav_evt a,
+	.form #nav_interet a,
+	.form .nav a {
+		width: calc(330px - 2px - 6px - 6px);
+	}
+	.form #nav_evt li ul,
+	.form #nav_interet li ul,
+	.form .nav li ul {
+		width: calc(330px - 2px - 6px - 6px);
+	}
+
+	.globalMain .main .wraplp .wraplp_element {
+		width: auto;
+	}
+	.globalMain .main .wraplp {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.globalHeader .header .wraplp {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		width: 100%;
+	}
+	.globalHeader .header .wraplp p{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		text-align: center;
+	}
+	/*
+	 * FOOTER
+	 */
+	.globalFooter .footer {
+		width: 730px;
+		padding: 0 5px !important;
+	}
+	/*
+	 * "POPUP" DE LA PAGE GOOD
+	 */
+	#erreurdiv .good {
+		width: 80% !important;
+		min-width: 300px;
+	}
+	#erreurdiv .goodV2 {
+		max-width: 640px;
+	}
+	#erreurdiv .goodV2 .conteneur .colLeft {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	#erreurdiv .goodV2 .conteneur .colRight {
+		width: 100%;
+	}
+	/* modif goodv2 */
+}
+
+/* Style plus specifique au mobile */
+@media only screen and (max-width: 480px), (max-device-width: 480px) {
+	/* Afficher ou Cacher des elements */
+	.show-mobile {
+		display: block;
+	}
+	.show-tablette {
+		display: none;
+	}
+	.show-desktop {
+		display: none;
+	}
+	/*
+	 * SLIDERS
+	 */
+	/*
+	.prev { margin-left: 10px !important; }
+	.next { margin-left: -40px !important; }
+	#products .prev { margin-left: 10px !important; }
+	#products .next { margin-left: -40px !important; }
+	*/
+	/*
+	 * GENERAL
+	 */
+	/*
+	 * HEADER
+	 */
+	.globalHeader .header {
+		width: 320px;
+	}
+	.globalHeader .header .colLeft,
+	.globalHeader .header .colRight {
+		width: 100%;
+		text-align: center;
+		padding: 0;
+	}
+	/*
+	 * BANDEAU
+	 */
+	.globalBandeau .bandeau {
+		background: url("../visuals/defaut/300x300_light.jpg") no-repeat top center;
+		width: 300px;
+		height: 300px;
+	}
+	/*
+	 * MAIN
+	 */
+	.globalMain .main {
+		width: 320px;
+	}
+	.globalMain .main .main_formulaire {
+		width: 100%;
+	}
+	.globalMain .main .main_formulaire .titre_formulaire {
+		padding: 10px;
+	}
+	.globalMain .main .main_formulaire .formulaire {
+		padding: 20px 10px 50px 10px;
+	}
+	.globalMain .main .main_formulaire .formulaire .col_1,
+	.globalMain .main .main_formulaire .formulaire .col_2 {
+		float: none;
+	}
+	.globalMain .main .main_formulaire .formulaire .col_clear {
+		clear: none;
+	}
+	/* Elements du formulaire */
+	.form .formstyle,
+	.form .formstyle2 {
+		width: calc(300px - 2px - 6px - 6px);
+		/*largeur - (border x2 + padding-left + padding-right) 240px*/
+	}
+	.form textarea.formstyle,
+	.form textarea.formstyle2 {
+		width: calc(300px - 2px - 6px - 6px);
+		/*largeur - (border x2 + padding-left + padding-right) 240px*/
+	}
+	.form select.formstyle,
+	.form select.formstyle2 {
+		width: 300px;
+		/*largeur 240px*/
+	}
+	.form #nav_evt a,
+	.form #nav_interet a,
+	.form .nav a {
+		width: calc(300px - 2px - 6px - 6px);
+	}
+	.form #nav_evt li ul,
+	.form #nav_interet li ul,
+	.form .nav li ul {
+		width: calc(300px - 2px - 6px - 6px);
+	}
+	/*
+	 * FOOTER
+	 */
+	.globalFooter .footer {
+		width: 310px;
+		padding: 0 5px !important;
+	}
+}
+
+/*
+ * PAGES DE TRANSFERT
+ */
+
+@media only screen and (max-width: 480px), (max-device-width: 480px) {
+	.transfert .viral {
+		width: calc(320px - 2px);
+		box-shadow: none;
+	}
+	.transfert .viral .transf {
+		width: 280px;
+		border-right: none;
+	}
+	.transfert .viral .publish {
+		width: 280px;
+		text-align: left;
+	}
+	.transfert .viral .publish .addthis_toolbox {
+		margin-right: 115px;
+	}
+	.transfert .footerTransfert {
+		width: 320px;
+	}
+	.formtransf,
+	.formtransf2,
+	.transfert .error {
+		width: calc(260px - 2px - 12px);
+	}
+	.logo_block{
+		width: 90%;
+		padding: 20px 0;
+	}
+	#erreurdiv .good {
+		text-align: center;
+		margin-top: 20px;
+	}
+	#erreurdiv .good .contact p {
+		padding: 10px;
+	}
+	#erreurdiv .good .contact {
+		flex-direction: column;
+	}
+}
