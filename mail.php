@@ -461,8 +461,7 @@ ob_start("rewrite_pages"); //reecriture des liens auto entre "OFFRE" et "FIN OFF
 								</tr>
 								<tr>
 									<td align="center" style="font-size: 13px; font-family:'NespressoLucas Regular', 'Nespresso Lucas', Helvetica, Arial, sans-serif; text-align: center; padding: 0 20px;">
-									(3) En validant votre inscription, vous consentez à recevoir les actualités et les offres promotionnelles de la Famille Nespresso par email. Si vous ne souhaitez plus recevoir nos communications, vous pourrez à tout moment vous désabonner.
-									<u>Famille Nespresso</u> : Nespresso France SAS, Nestlé Nespresso SA, Nestlé France SASSi vous désirez contacter Nespresso, appelez le 0 800 55 52 53 - Service & appel gratuits (disponibles du lundi au samedi de 8h à 20h, hors 1er mai et jours fériés).<br><br />
+									(3) En validant votre inscription, vous consentez à recevoir les actualités et les offres promotionnelles de la Famille Nespresso par email. Si vous ne souhaitez plus recevoir nos communications, vous pourrez à tout moment vous désabonner.<br><br />
 									<span style="line-height: 0;">Si vous souhaitez participer sans vous abonner, cliquez <a href="link_lp_ctl2.php" target="_blank" style="color:#000001;">ici</a></span>
 									</td>
 								</tr>
@@ -861,10 +860,13 @@ ob_start("rewrite_pages"); //reecriture des liens auto entre "OFFRE" et "FIN OFF
 																Visuels non contractuels.<br />
 																Suggestion de présentation.<br />
 																*Quoi d'autre.<br>
+																<u>Famille Nespresso</u> : Nespresso France SAS, Nestlé Nespresso SA, Nestlé France SAS<br>
 																<br>
-																(1) Coffret composé d'une machine à café Nespresso Vertuo Next noire matte, d'un Mousseur à lait Aeroccino noir, de 2 mugs Vertuo et de 100 capsules Vertuo prédéterminées.<br>
+																(1) Coffret composé d'une machine à café Nespresso Vertuo Next noire mat, d'un Mousseur à lait Aeroccino noir, de 2 mugs Vertuo et de 100 capsules Vertuo prédéterminées.
+																Jeu sans obligation d'achat, organisé par la société Nespresso France, ouvert du 01/07/2022 à 06h00 au 07/08/2022 à 23h59 inclus, réservé exclusivement aux personnes n'ayant pas de compte Membre du Club Nespresso et résidant en France (Corse et Outre-Mer inclus), limité à 1 (une) participation par personne. Pour participer, se rendre sur le site <a href="link_ml_jeu.php" style="color:#8D8D8D">www.grand-jeu-nespresso.com</a> et suivre les étapes de participation indiquées. Mise en jeu de 1 lot de la machine Vertuo Next noire matte et les indispensables du Barista d'une valeur commerciale unitaire estimative de 306 &euro; TTC (306 euros toutes taxes comprises). Voir modalités complètes sur <a href="link_ml_jeu.php" style="color:#8D8D8D">www.grand-jeu-nespresso.com</a>. Le règlement peut également être adressé sur simple demande formulée à <a href="mailto:droits-b2c@vertical-mail.com" style="color:#8D8D8D">droits-b2c@vertical-mail.com</a> avant le 08 février 2023.<br>
 																<br>
-																(2) Jeu sans obligation d'achat, réservé exclusivement aux personnes n'ayant pas de compte Club Nespresso, organisé par la société Nespresso, ouvert du 01/07/2022 à 06h00 au 07/08/2022 à 23h59 inclus aux personnes résidant en France (Corse et Outre-Mer inclus) et limité à 1 (une) participation par personne. Pour participer, se rendre sur le site <a href="link_ml_jeu.php" style="color:#8D8D8D">www.grand-jeu-nespresso.com</a> et suivre les étapes de participation indiquées. Mise en jeu de 1 lot de la machine Vertuo Next noire matte et les indispensables du Barista d'une valeur commerciale unitaire estimative de 306 &euro; TTC (306 euros toutes taxes comprises). Voir modalités complètes sur <a href="link_ml_jeu.php" style="color:#8D8D8D">www.grand-jeu-nespresso.com</a>. Le règlement peut également être adressé sur simple demande formulée à <a href="mailto:droits-b2c@vertical-mail.com" style="color:#8D8D8D">droits-b2c@vertical-mail.com</a> avant le 08 février 2023.
+																(2) Offre valable en France métropolitaine jusqu'au 31/12/2022 inclus, exclusivement sur le site internet <a href="link_ml_site.php" style="color:#8D8D8D">wwww.nespresso.com</a>, depuis l'application mobile Nespresso, par téléphone au 0 800 55 52 53 (appel et service gratuits, disponibles du lundi au samedi de 8h à 20h, hors 1er mai et jours fériés) ou dans l'une de nos Boutiques Nespresso (selon jours d'ouverture de la Boutique). Bénéficiez d'une remise immédiate de 5&euro; sur le montant de votre commande de café dès 50 capsules de la gamme Original ou Vertuo achetées. Offre strictement nominative et non transférable, limitée à une (1) utilisation par nouveau client et non cumulable avec toute autre offre Nespresso ou Nestlé en cours.
+
 																<?php if ($_lt != "hp") {
 																	echo "<br /><br /><br />" . $par_abon;
 																} ?>
