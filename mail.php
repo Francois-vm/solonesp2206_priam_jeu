@@ -299,7 +299,7 @@ ob_start("rewrite_pages"); //reecriture des liens auto entre "OFFRE" et "FIN OFF
 								</tr>
 								<tr>
 									<td align="center">
-										<span style="font-family:'NespressoLucas Regular', 'Nespresso Lucas', Helvetica, Arial, sans-serif; font-size:12px; color:#8D8D8D;">Nespresso vous offre la machine Vertuo et les indispensables du Barista - <a href="link_mirror.php" target="_blank" title="Découvrez de nouvelles saveurs avec un café responsable - Version en ligne" style="text-decoration:underline; color:#8D8D8D;"><strong>Version en ligne</strong>
+										<span style="font-family:'NespressoLucas Regular', 'Nespresso Lucas', Helvetica, Arial, sans-serif; font-size:12px; color:#8D8D8D;">A gagner : une machine Vertuo, 100 capsules et les accessoires Barista - <a href="link_mirror.php" target="_blank" title="Découvrez de nouvelles saveurs avec un café responsable - Version en ligne" style="text-decoration:underline; color:#8D8D8D;"><strong>Version en ligne</strong>
 											</a>
 										</span>
 									</td>
@@ -316,7 +316,7 @@ ob_start("rewrite_pages"); //reecriture des liens auto entre "OFFRE" et "FIN OFF
 									<td height="32" style="height:32px; line-height:32px; font-size:1px;" class="h20">&nbsp;</td>
 								</tr>
 								<tr>
-									<td valign="middle" align="center" style="font-size: 15px; font-family:'NespressoLucas Regular', 'Nespresso Lucas', Helvetica, Arial, sans-serif; text-align: center; letter-spacing: 1.5px; line-height: 15px; padding: 15px; background-color:#000001; color:#ffffff;">Jeu réservé exclusivement aux nouveaux clients</td>
+									<td valign="middle" align="center" style="font-size: 15px; font-family:'NespressoLucas Regular', 'Nespresso Lucas', Helvetica, Arial, sans-serif; text-align: center; letter-spacing: 1.5px; line-height: 15px; padding: 15px; background-color:#000001; color:#ffffff;">Vous n'êtes pas encore Membre du Club Nespresso, ce jeu est pour vous</td>
 								</tr>
 								<tr>
 									<td height="31" style="height:31px; line-height:31px; font-size:1px;" class="h20">&nbsp;</td>
@@ -461,9 +461,8 @@ ob_start("rewrite_pages"); //reecriture des liens auto entre "OFFRE" et "FIN OFF
 								</tr>
 								<tr>
 									<td align="center" style="font-size: 13px; font-family:'NespressoLucas Regular', 'Nespresso Lucas', Helvetica, Arial, sans-serif; text-align: center; padding: 0 20px;">
-									(3) En validant votre inscription, vous consentez à recevoir les actualités et les offres promotionnelles de la Famille Nespresso par email.
-									Famille Nespresso : Nespresso France SAS, Nestlé Nespresso SA, Nestlé France SAS.<br>
-									Si vous ne souhaitez plus recevoir nos communications, vous pourrez à tout moment vous désabonner.<br><br />
+									(3) En validant votre inscription, vous consentez à recevoir les actualités et les offres promotionnelles de la Famille Nespresso par email. Si vous ne souhaitez plus recevoir nos communications, vous pourrez à tout moment vous désabonner.
+									<u>Famille Nespresso</u> : Nespresso France SAS, Nestlé Nespresso SA, Nestlé France SASSi vous désirez contacter Nespresso, appelez le 0 800 55 52 53 - Service & appel gratuits (disponibles du lundi au samedi de 8h à 20h, hors 1er mai et jours fériés).<br><br />
 									<span style="line-height: 0;">Si vous souhaitez participer sans vous abonner, cliquez <a href="link_lp_ctl2.php" target="_blank" style="color:#000001;">ici</a></span>
 									</td>
 								</tr>
@@ -863,12 +862,9 @@ ob_start("rewrite_pages"); //reecriture des liens auto entre "OFFRE" et "FIN OFF
 																Suggestion de présentation.<br />
 																*Quoi d'autre.<br>
 																<br>
-																(1) Coffret composé d'une machine à café Nespresso Vertuo Next, d'un Mousseur à lait Aeroccino, de 2 mugs Vertuo et 100 capsules Vertuo.<br />
-																(2) Valable dès 50 capsules Nespresso commandées. Offre valable en France métropolitaine du 01/07/2022 au 31/12/2022 inclus, exclusivement sur le site internet www.nespresso.com, depuis l'application mobile Nespresso, par téléphone au par téléphone au
-																0 800 55 52 53 (appel et service gratuits, disponibles du lundi au samedi de 8h à 20h, hors 1er mai et jours fériés), ou dans l'une de nos Boutiques Nespresso (selon jours d'ouverture de la Boutique). Bénéficiez d'une remise immédiate de 5&euro; sur le montant de
-																votre commande de café dès 50 capsules de la gamme Original ou Vertuo achetées. Offre strictement nominative et non transférable, limitée à une (1) utilisation par nouveau client et non cumulable avec toute autre offre Nespresso ou Nestlé en cours.<br />
-																<br />
-																Livraison gratuite en France métropolitaine et Monaco avec Colissimo, en Point Relais (hors livraison avec Chronopost, Chronorelais, Coursier 24h, et Nespresso Your Time) pour tout achat d'accessoires, de machines ou dès 50 capsules commandées de la gamme Original ou dès 30 capsules de la gamme Vertuo commandées sur le site internet Nespresso.com, depuis l'application mobile Nespresso, ou par téléphone au 0 800 55 52 53 - Service & appel gratuits (disponibles du lundi au samedi de 8h à 20h et les dimanches et les jours fériés de 10h à 18h, tous les jours sauf le 1er mai).
+																(1) Coffret composé d'une machine à café Nespresso Vertuo Next noire matte, d'un Mousseur à lait Aeroccino noir, de 2 mugs Vertuo et de 100 capsules Vertuo prédéterminées.<br>
+																<br>
+																(2) Jeu sans obligation d'achat, réservé exclusivement aux personnes n'ayant pas de compte Club Nespresso, organisé par la société Nespresso, ouvert du 01/07/2022 à 06h00 au 07/08/2022 à 23h59 inclus aux personnes résidant en France (Corse et Outre-Mer inclus) et limité à 1 (une) participation par personne. Pour participer, se rendre sur le site <a href="link_ml_jeu.php" style="color:#8D8D8D">www.grand-jeu-nespresso.com</a> et suivre les étapes de participation indiquées. Mise en jeu de 1 lot de la machine Vertuo Next noire matte et les indispensables du Barista d'une valeur commerciale unitaire estimative de 306 &euro; TTC (306 euros toutes taxes comprises). Voir modalités complètes sur <a href="link_ml_jeu.php" style="color:#8D8D8D">www.grand-jeu-nespresso.com</a>. Le règlement peut également être adressé sur simple demande formulée à <a href="mailto:droits-b2c@vertical-mail.com" style="color:#8D8D8D">droits-b2c@vertical-mail.com</a> avant le 08 février 2023.
 																<?php if ($_lt != "hp") {
 																	echo "<br /><br /><br />" . $par_abon;
 																} ?>
