@@ -323,7 +323,7 @@ ob_start("rewrite_pages"); //reecriture des liens auto entre "OFFRE" et "FIN OFF
 								</tr>
 								<tr>
 									<td valign="middle" align="center" style="font-family:'NespressoLucas Regular', 'Nespresso Lucas', Helvetica, Arial, sans-serif;color:#19171a;font-size: 30px;">
-									JOUEZ ET GAGNEZ UN COFFRET<br />
+									JOUEZ ET TENTEZ DE GAGNER UN COFFRET<br />
 									<span style="font-family: 'Nespresso Lucas XtraBd', 'Nespresso Lucas', Helvetica, Arial, sans-serif;  font-size: 35px;font-weight: bold;line-height: 0.74;letter-spacing: -1.05px; line-height: 1.4;">VERTUO & LES INDISPENSABLES DU BARISTA<sup style="font-size: medium; vertical-align:top;">(1)</sup></span>
 									</td>
 								</tr>
@@ -397,7 +397,7 @@ ob_start("rewrite_pages"); //reecriture des liens auto entre "OFFRE" et "FIN OFF
 																			<table class="wid_cen" cellspacing="0" cellpadding="0" border="0" style="width:230px">
 																				<tr>
 																					<td style="text-align:center; background-color:#000000; font-size: 26px; font-family:'NespressoLucas Regular', 'Nespresso Lucas', Arial, Helvetica, sans-serif; color: #ffffff; height:50px" valign="middle">
-																					<a href="link_lp_ctl.php" style="text-decoration:none;color:#ffffff" target="_blank">JE PARTICIPE*</a></td>
+																					<a href="link_lp_ctl.php" style="text-decoration:none;color:#ffffff" target="_blank">JE PARTICIPE<sup style="font-size:16px">(3)</sup></a></td>
 																				</tr>
 																			</table>
 																		</td>
@@ -433,7 +433,6 @@ ob_start("rewrite_pages"); //reecriture des liens auto entre "OFFRE" et "FIN OFF
 														<table  cellpadding="0" cellspacing="0" border="0" align="center"><tr><td style="height:42px; line-height:42px; font-size:1px;">&nbsp;</td></tr></table>
 														<span style="color:#d39075;">Et si une seule machine<br />
 														vous permettait<br />
-														permettait<br />
 														de créer 4 tailles<br />
 														de tasse ?</span>
 														<table cellpadding="0" cellspacing="0" border="0" align="center">
@@ -462,7 +461,9 @@ ob_start("rewrite_pages"); //reecriture des liens auto entre "OFFRE" et "FIN OFF
 								</tr>
 								<tr>
 									<td align="center" style="font-size: 13px; font-family:'NespressoLucas Regular', 'Nespresso Lucas', Helvetica, Arial, sans-serif; text-align: center; padding: 0 20px;">
-									*En validant votre inscription, vous consentez à recevoir les actualités et les offres promotionnelles de Nespresso par email. Si vous ne souhaitez plus recevoir nos communications, vous pourrez à tout moment vous désabonner.<br><br />
+									(3) En validant votre inscription, vous consentez à recevoir les actualités et les offres promotionnelles de la Famille Nespresso par email.
+									Famille Nespresso : Nespresso France SAS, Nestlé Nespresso SA, Nestlé France SAS.<br>
+									Si vous ne souhaitez plus recevoir nos communications, vous pourrez à tout moment vous désabonner.<br><br />
 									<span style="line-height: 0;">Si vous souhaitez participer sans vous abonner, cliquez <a href="link_lp_ctl2.php" target="_blank" style="color:#000001;">ici</a></span>
 									</td>
 								</tr>
