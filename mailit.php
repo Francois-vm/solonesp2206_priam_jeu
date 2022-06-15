@@ -218,7 +218,7 @@ if ($mail_valid == "False" ) {
 //Récupération des codes pour les campagnes d'animation
 if($qualif1 == 1) {
 
-	//2 codes promos à récupérer pour les relances automatiques
+	//3 codes promos à récupérer pour les relances automatiques
 
 	// Récupération du code AOL dans qualif3 - ENVOI A PRIAM
 	$sqlcodeaol1 = "select  * from tempOperation.nespresso_codes_AOL where email='" . quote_smart($email) . "' and email<>''";
@@ -277,6 +277,35 @@ if($qualif1 == 1) {
 							   $mail_france = "False";
 							   $qualif30 = "Plus de code AIN";
 				  }
+	}
+
+	// Récupération du code ARE dans qualif6 - ENVOI A PRIAM
+	$sqlcodeare1 = "select  * from tempOperation.nespresso_codes_ARE where email='" . quote_smart($email) . "' and email<>''";
+	$reqcodeare1 = mysql_query($sqlcodeare1) or die (mysql_error());
+	if(mysql_num_rows($reqcodeare1)!=0) {
+				$tcodeare = mysql_fetch_array($reqcodeare1);
+				$qualif6 = $tcodeare["code"];
+	}
+	else {
+				$sqlcodeare2 = "update tempOperation.nespresso_codes_ARE
+							set
+							0_dispo_1_sinon=1,
+							email='" . quote_smart($email) . "'
+	where 0_dispo_1_sinon=0
+	and email <> '" . quote_smart($email) . "'
+							limit 1
+							";
+				$reqcodeare2 = mysql_query($sqlcodeare2) or die (mysql_error());
+				$sqlcodeare3 = "select  * from tempOperation.nespresso_codes_ARE where email='" . quote_smart($email) . "' and email<>''";
+				$reqcodeare3 = mysql_query($sqlcodeare3) or die (mysql_error());
+				if(mysql_num_rows($reqcodeare3)==1) {
+							$tcodeare = mysql_fetch_array($reqcodeare3);
+							$qualif6 = $tcodeare["code"];
+				}
+				else {
+							$mail_france = "False";
+							$qualif30 = "Plus de code ARE";
+				}
 	}
 
 }
